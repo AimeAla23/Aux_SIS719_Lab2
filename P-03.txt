@@ -1,0 +1,21 @@
+CARACTERISTICAS DE TYPESCRIPT
+ • Al ser un lenguaje compilado/transpilado podemos detectar muchos de los errores antes de abordar la ejecucion.
+ • POO, el soporte para el manejo de clases, interfaces, herencia, composicion, etc. Es fuerte y solido.
+ • Lenguaje moderno que permite opciones como por ejemplo union types que permite que un tipo soporte dos opciones.
+ • Uso de anotaciones/decoradores(metainformacion) es clave para conseguir diseñar frameworks potentes.
+ • Los genericos realizan refactorings importantes en nuestro codigo reduciendolo y permitiendo un diseño mas solido de librerias y frameworks.
+ • El uso es parecido a JavaScript, como TypeScript se fundamenta en JS.
+ • Admite las bibliotecas, marcos y herramienta de JavaScript.
+ • Si se cambia la extensión de .js a .ts, el código escrito de JavaScript se convierte en TypeScript.
+ • Los navegadores no comprenden el código de TypeScript. Por ende, es necesario compilarlo y convertirlo en código de JavaScript. ‘Una traducción 
+   informática’ que es conocida como “trans-piled” o, en castellano, “transpilación”.
+
+
+DIFERENCIA: TYPESCRIPT VS JAVASCRIPT
+ • TypeScript dispone de una escritura estática, mientras que JavaScript es un lenguaje dinámico.
+ • JavaScript no admite módulos, mientras que TypeScript sí que les da soporte.
+ • TypeScript dispone de interfaz, mientras que JavaScript no.
+ • En TypeScript sí que hay que compilar el código, en JavaScript no es necesario.
+ • TypeScript proporciona un soporte mas robusto para la Programacion Orientada a Objetos, con caracteristicas como clases, interfaces y herencia. 
+   JavaScript tambien soporta POO, pero de manera tradicional, utlizando prototipos.
+ 

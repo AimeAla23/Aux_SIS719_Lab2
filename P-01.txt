@@ -1,0 +1,43 @@
+-----------------TEMPLATE STRINGS-----------------
+
+¿COMO FUNCIONA LOS TEMPLATE STRINGS?
+R. Los Template Strings, tambien conocidos como cadenas de plantilla, proporcionan una sintaxis mas legible y conveniente para la creacion de cadenas de texto 
+que incluyan variables y expresiones.
+Ejemplo:
+const nombre = 'Aime'
+const edad = 22;
+
+//usando template strings
+const mensaje = `Hola, me llamo ${nombre} y tengo ${edad}` años.
+
+console.log(mensaje);
+
+Resultado: Hola, me llamo Aime y tengo 22.
+
+-Definimos 2 variables `nombre` y `edad`
+-Creamos una cadena de plantilla rodeado de comillas inversas (` `).
+-Utilizamos ${} dentro de la cadena de plantilla para incluir las variables `nombre` y `edad`.
+-Al evaluar la cadena las expresiones entre `${}` se sustituyen por los valores de las variables correspondientes.
+Los Template Strings tambien pueden contener expresiones mas complejas, como llamadas a funciones o incluso otras Template Strings anidadas.
+En resumen, las template strings funcionan permitiendo la interpolación de variables y expresiones dentro de cadenas de texto, facilitando la creación de cadenas 
+de texto dinámicas y complejas de una manera más legible y conveniente.
+
+
+CARACTERISTICAS:
+ • Interpolacion de Variables: Inserta valores de variables dentro de la cadena de texto de forma sencilla y legible que concatenando cadenas con "+" u otros operadores.
+ Por lo general se logra mediante la inclusion de expresiones entre `${}` dentro de la cadena de texto.
+ • Expresiones dentro de la Interpolacion: Permiten la inclusion de expresiones mas complejas dentro de las interpolaciones `${}` lo que facilita la manipulacion y 
+ presentacion de datos en la cadena de texto resultante.
+ • Multilinea: Permiten la escritura de cadenas de texto multilinea de una manera mas limpia y legible. 
+ • Facilidad de lectura y mantenimiento: La capacidad de incluir variables y expresiones directamente en la cadena de texto puede hacer que el código sea más fácil de 
+ leer y mantener, especialmente en comparación con métodos de concatenación de cadenas más verbosos.
+ • Evita problemas de seguridad: asociados con la concatenacion de cadenas, como la vulnerabilidad de inyeccion de SQL o de JS.
+
+
+
+COMO SE DIFERENCIAN DE LAS COMILLAS SIMPLES Y DOBLES.
+Los template Strings se escriben con comillas invertidas `` permitiendo hacer saltos de lineas como si de una etiqueta <pre> se tratara, tambien permite incrustar 
+JavaScript dentro de la cadena de texto.
+Las comillas simples y dobles se utilizan para definir cadenas de texto estaticas y sencillas.
+Las comillas dobles se usan principalmente para delimitar citas o indicar metalenguaje.
+Las comillas simples suelen reservarse para indicar significado.
